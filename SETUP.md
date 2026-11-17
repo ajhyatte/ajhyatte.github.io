@@ -5,7 +5,7 @@ Your site will live at **https://YOUR-USERNAME.github.io**.
 
 ## 1. Get the files
 Download `site.zip` and unzip it. You should see a folder with:
-`index.html  blog.html  cv.html  reading.html  style.css  cv.pdf  README.md  SETUP.md`
+`index.html  cv.html  reading.html  style.css  cv.pdf  img/  README.md  SETUP.md`
 
 ## 2. Make a GitHub account
 Go to **github.com** → **Sign up**. Pick your username carefully — it becomes your web address
@@ -19,7 +19,7 @@ Go to **github.com** → **Sign up**. Pick your username carefully — it become
 
 ## 4. Upload the files
 1. On the new repo page, click the link **"uploading an existing file"**.
-2. Open your unzipped folder, select **all the files inside it** (not the folder itself), and drag them into the browser.
+2. Open your unzipped folder, select **everything inside it** (including the `img` folder), and drag it all into the browser.
 3. Scroll down, click **Commit changes**.
 
 ## 5. Turn on the website
@@ -45,8 +45,6 @@ That's it — you're online.
   - Tags: `<span class="tag nonfiction">Nonfiction</span>`, `<span class="tag fiction">Fiction</span>`,
     or any topic: `<span class="tag">Latin America</span>`.
 - **Finished a book:** cut its line from *Currently reading* and paste it under *Read in 2026*.
-- **New blog post:** in `blog.html`, copy a post line and paste in the Substack link, title and date.
-  Also replace `YOURNAME.substack.com` on the Subscribe button with your Substack address.
 - **Update the CV:** edit `cv.html`. To replace the downloadable PDF, upload a new file named
   exactly `cv.pdf` (Add file → Upload files) — it overwrites the old one.
 

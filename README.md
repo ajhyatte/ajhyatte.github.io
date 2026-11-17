@@ -5,9 +5,9 @@ Plain HTML + one stylesheet (`style.css`). No build step — open `index.html` i
 | To change...   | Edit |
 |----------------|------|
 | Your name      | search all files for `Your Name` |
+| Photos         | put images in `img/` and change the `src` in `cv.html` |
 | CV             | `cv.html` — each `<div class="item">` is one entry; copy/paste to add |
 | Reading list   | `reading.html` — one line per book (Goodreads link, title, author); move lines between Currently reading / Next up / Read |
-| Blog           | `blog.html` — one line per Substack post (newest first); set your Substack URL on the orb button |
 | Colours        | the variables at the top of `style.css` |
 | Glows          | the "THE GLOW" section of `style.css` — each page has its own blob sizes/positions/colours |
 
