@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>A.J. Hyatte</title>
+</head>
+<body class="home">
+  <div class="aura" aria-hidden="true">
+    <span></span><span></span><span></span>
+    <!-- soft liquid ribbons -->
+    <svg class="ribbons" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid slice">
+      <defs>
+        <filter id="wide" filterUnits="userSpaceOnUse" x="-300" y="-300" width="1600" height="1600"><feGaussianBlur stdDeviation="28"/></filter>
+        <filter id="mid"  filterUnits="userSpaceOnUse" x="-300" y="-300" width="1600" height="1600"><feGaussianBlur stdDeviation="10"/></filter>
+        <filter id="thin" filterUnits="userSpaceOnUse" x="-300" y="-300" width="1600" height="1600"><feGaussianBlur stdDeviation="2.5"/></filter>
+      </defs>
+      <g fill="none" stroke-linecap="round">
+        <g id="r1">
+          <path d="M-80 170 C 180 60, 380 300, 600 210 S 880 30, 1100 150" stroke="#0E4B50" stroke-width="110" filter="url(#wide)"/>
+          <path d="M-80 170 C 180 60, 380 300, 600 210 S 880 30, 1100 150" stroke="#FF7A2E" stroke-width="34" filter="url(#mid)" opacity=".85"/>
+          <path d="M-80 170 C 180 60, 380 300, 600 210 S 880 30, 1100 150" stroke="#FF220C" stroke-width="7" filter="url(#thin)"/>
+        </g>
+        <g>
+          <path d="M-80 880 C 220 760, 420 960, 700 860 S 960 720, 1100 800" stroke="#0E4B50" stroke-width="120" filter="url(#wide)"/>
+          <path d="M-80 880 C 220 760, 420 960, 700 860 S 960 720, 1100 800" stroke="#FF7A2E" stroke-width="30" filter="url(#mid)" opacity=".8"/>
+          <path d="M-80 880 C 220 760, 420 960, 700 860 S 960 720, 1100 800" stroke="#FF220C" stroke-width="5" filter="url(#thin)" opacity=".9"/>
+        </g>
+      </g>
+    </svg>
+  </div>
+
+  <header class="top label">
+    <span>Index</span>
+    <span>2026</span>
+  </header>
+
+  <main>
+    <h1 class="name">A.J. Hyatte</h1>
+    <nav>
+      <a href="blog.html">Blog <small>01</small></a>
+      <a href="cv.html">CV <small>02</small></a>
+      <a href="reading.html">Reading list <small>03</small></a>
+    </nav>
+  </main>
+</body>
+</html>
